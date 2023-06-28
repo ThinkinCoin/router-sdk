@@ -1,5 +1,5 @@
 {
-  "name": "@uniswap/router-sdk",
+  "name": "@thinkincoin-libs/router-sdk",
   "version": "1.4.0",
   "description": "An sdk for routing swaps using Uniswap v2 and Uniswap v3.",
   "publishConfig": {
@@ -18,19 +18,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Uniswap/router-sdk.git"
+    "url": "https://github.com/ThinkinCoin/router-sdk.git"
   },
   "keywords": [
     "uniswap",
-    "ethereum"
+    "ethereum",
+    "harmony"
   ],
   "license": "MIT",
   "dependencies": {
     "@ethersproject/abi": "^5.5.0",
-    "@uniswap/sdk-core": "^3.0.1",
+    "@thinkincoin-libs/sdk-core": "^3.2.8",
     "@uniswap/swap-router-contracts": "1.1.0",
-    "@uniswap/v2-sdk": "^3.0.1",
-    "@uniswap/v3-sdk": "^3.8.3"
+    "@thinkincoin-libs/uniswap-v2-sdk": "^3.0.2",
+    "@thinkincoin-libs/uniswap-v3-sdk": "^3.9.3"
   },
   "devDependencies": {
     "@types/jest": "^24.0.25",
