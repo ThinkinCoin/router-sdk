@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Fraction, Percent, Price, TradeType } from '@thinkincoin-libs/sdk-core'
+import { Currency, CurrencyAmount, Fraction, Percent, Price, TradeType } from '@uniswap/sdk-core'
 import { Pair, Route as V2RouteSDK, Trade as V2TradeSDK } from '@thinkincoin-libs/uniswap-v2-sdk'
 import { Pool, Route as V3RouteSDK, Trade as V3TradeSDK } from '@thinkincoin-libs/uniswap-v3-sdk'
 import invariant from 'tiny-invariant'
@@ -61,15 +61,14 @@ export class Trade<TInput extends Currency, TOutput extends Currency, TTradeType
     }
     // wrap v3 routes
     for (const { routev3, inputAmount, outputAmount } of v3Routes) {
-      const route: IRoute<TInput, TOutput, Pair | Pool> = new RouteV3(routev3);
-      this.routes.push(route);
+      const route = new RouteV3(routev3)
+      this.routes.push(route)
       this.swaps.push({
         route,
         inputAmount,
         outputAmount,
-      });
+      })
     }
-    
     // wrap mixedRoutes
     if (mixedRoutes) {
       for (const { mixedRoute, inputAmount, outputAmount } of mixedRoutes) {
