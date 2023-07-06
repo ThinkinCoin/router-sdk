@@ -61,14 +61,15 @@ export class Trade<TInput extends Currency, TOutput extends Currency, TTradeType
     }
     // wrap v3 routes
     for (const { routev3, inputAmount, outputAmount } of v3Routes) {
-      const route = new RouteV3(routev3)
-      this.routes.push(route)
+      const route: IRoute<TInput, TOutput, Pair | Pool> = new RouteV3(routev3);
+      this.routes.push(route);
       this.swaps.push({
         route,
         inputAmount,
         outputAmount,
-      })
+      });
     }
+    
     // wrap mixedRoutes
     if (mixedRoutes) {
       for (const { mixedRoute, inputAmount, outputAmount } of mixedRoutes) {
