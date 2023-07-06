@@ -368,7 +368,7 @@ export abstract class SwapRouter {
         } else if (route.protocol == Protocol.V3) {
           individualTrades.push(
             V3Trade.createUncheckedTrade({
-              route: route as RouteV3<Currency, Currency>,
+              route: route as unknown as RouteV3<Currency, Currency>,
               inputAmount,
               outputAmount,
               tradeType: trades.tradeType,
