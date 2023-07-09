@@ -1500,10 +1500,23 @@
   dependencies:
     type-detect "4.0.8"
 
-"@thinkincoin-libs/sdk-core@^3.2.8", "@thinkincoin-libs/sdk-core@^3.3.1", "@thinkincoin-libs/sdk-core@^3.3.2":
+"@thinkincoin-libs/sdk-core@^3.3.1", "@thinkincoin-libs/sdk-core@^3.3.2":
   version "3.3.5"
   resolved "https://registry.yarnpkg.com/@thinkincoin-libs/sdk-core/-/sdk-core-3.3.5.tgz#83f9058cee333d59a3470369a12bec5aaeba39c0"
   integrity sha512-GBtmZm9W0IlTQtIK7hZ16eQ06xHuufS7ERnW5rwC8P03c5GWAphYMtqAS1Vmzj7EoB53crrFWNt3wIOWOGEiCg==
+  dependencies:
+    "@ethersproject/address" "^5.0.2"
+    "@thinkincoin-libs/sdk-core" "^3.3.1"
+    big.js "^5.2.2"
+    decimal.js-light "^2.5.0"
+    jsbi "^3.1.4"
+    tiny-invariant "^1.1.0"
+    toformat "^2.0.0"
+
+"@thinkincoin-libs/sdk-core@^3.3.6":
+  version "3.3.6"
+  resolved "https://registry.yarnpkg.com/@thinkincoin-libs/sdk-core/-/sdk-core-3.3.6.tgz#bed21cf1e067bbd6b207ee1c3f221580e3aa23b4"
+  integrity sha512-pbXdYBatY7qIegqrnUHR01ZsKSI5TN8YLnHNKF3BzK8X0kbWbRf/0EgzdGc1xdaOL570TmjHdL3dqvit0fMWKQ==
   dependencies:
     "@ethersproject/address" "^5.0.2"
     "@thinkincoin-libs/sdk-core" "^3.3.1"
