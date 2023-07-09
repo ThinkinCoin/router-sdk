@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Fraction, Percent, Price, TradeType } from '@uniswap/sdk-core'
+import { Currency, CurrencyAmount, Fraction, Percent, Price, TradeType } from '@thinkincoin-libs/sdk-core'
 import { Pair, Route as V2RouteSDK, Trade as V2TradeSDK } from '@thinkincoin-libs/uniswap-v2-sdk'
 import { Pool, Route as V3RouteSDK, Trade as V3TradeSDK } from '@thinkincoin-libs/uniswap-v3-sdk'
 import invariant from 'tiny-invariant'
