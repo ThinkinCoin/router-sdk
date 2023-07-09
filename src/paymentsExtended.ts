@@ -1,6 +1,6 @@
 import { Interface } from '@ethersproject/abi'
 import { Percent, Token, validateAndParseAddress } from '@thinkincoin-libs/sdk-core'
-import { abi } from '@uniswap/swap-router-contracts/artifacts/contracts/interfaces/IPeripheryPaymentsWithFeeExtended.sol/IPeripheryPaymentsWithFeeExtended.json'
+import { abi } from '@thinkincoin-libs/swap-router-contracts/artifacts/contracts/interfaces/IPeripheryPaymentsWithFeeExtended.sol/IPeripheryPaymentsWithFeeExtended.json'
 import { FeeOptions, Payments, toHex } from '@thinkincoin-libs/uniswap-v3-sdk'
 import JSBI from 'jsbi'
 

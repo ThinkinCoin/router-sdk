@@ -1,6 +1,6 @@
 import { Interface } from '@ethersproject/abi'
 import { BigintIsh } from '@thinkincoin-libs/sdk-core'
-import { abi } from '@uniswap/swap-router-contracts/artifacts/contracts/interfaces/IMulticallExtended.sol/IMulticallExtended.json'
+import { abi } from '@thinkincoin-libs/swap-router-contracts/artifacts/contracts/interfaces/IMulticallExtended.sol/IMulticallExtended.json'
 import { Multicall, toHex } from '@thinkincoin-libs/uniswap-v3-sdk'
 
 // deadline or previousBlockhash
