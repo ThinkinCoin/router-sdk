@@ -1,4 +1,4 @@
-import { BigintIsh, CurrencyAmount, Ether, Percent, Token, TradeType, WETH9 } from '@thinkincoin-libs/sdk-core'
+import { BigintIsh, CurrencyAmount, Ether, Percent, Token, TradeType, WETH9 } from '@uniswap/sdk-core'
 import { Pair, Route as V2Route, Trade as V2Trade } from '@uniswap/v2-sdk'
 import {
   encodeSqrtRatioX96,

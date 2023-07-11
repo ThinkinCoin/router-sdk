@@ -1,5 +1,5 @@
 import { pack } from '@ethersproject/solidity'
-import { Currency, Token } from '@thinkincoin-libs/sdk-core'
+import { Currency, Token } from '@uniswap/sdk-core'
 import { Pool } from '@uniswap/v3-sdk'
 import { Pair } from '@uniswap/v2-sdk'
 import { MixedRouteSDK } from '../entities/mixedRoute/route'
