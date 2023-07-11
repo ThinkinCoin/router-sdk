@@ -28,10 +28,10 @@
   "license": "MIT",
   "dependencies": {
     "@ethersproject/abi": "^5.5.0",
-    "@thinkincoin-libs/sdk-core": "^3.3.6",
+    "@thinkincoin-libs/sdk-core": "^3.3.7",
     "@thinkincoin-libs/swap-router-contracts": "^1.0.1",
-    "@thinkincoin-libs/uniswap-v2-sdk": "^3.0.6",
-    "@thinkincoin-libs/uniswap-v3-sdk": "^3.9.4"
+    "@thinkincoin-libs/uniswap-v2-sdk": "^3.0.7",
+    "@thinkincoin-libs/uniswap-v3-sdk": "^3.9.5"
   },
   "devDependencies": {
     "@types/jest": "^24.0.25",
