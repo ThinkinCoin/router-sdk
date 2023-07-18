@@ -1,4 +1,4 @@
-import { Currency, Fraction, Percent, Price, sortedInsert, CurrencyAmount, TradeType, Token } from '@thinkincoin-libs/sdk-core'
+import { Currency, Fraction, Percent, Price, sortedInsert, CurrencyAmount, TradeType, Token } from '@thinkincoin/sdk-core'
 import { Pair } from '@thinkincoin-libs/uniswap-v2-sdk'
 import { BestTradeOptions, Pool } from '@thinkincoin-libs/uniswap-v3-sdk'
 import invariant from 'tiny-invariant'

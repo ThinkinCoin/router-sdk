@@ -1,5 +1,5 @@
 import { Interface } from '@ethersproject/abi'
-import { BigintIsh } from '@thinkincoin-libs/sdk-core'
+import { BigintIsh } from '@thinkincoin/sdk-core'
 import { abi } from '@thinkincoin-libs/swap-router-contracts/artifacts/contracts/interfaces/IMulticallExtended.sol/IMulticallExtended.json'
 import { Multicall, toHex } from '@thinkincoin-libs/uniswap-v3-sdk'
 

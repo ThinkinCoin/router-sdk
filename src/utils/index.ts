@@ -1,4 +1,4 @@
-import { Currency, Token } from '@thinkincoin-libs/sdk-core'
+import { Currency, Token } from '@thinkincoin/sdk-core'
 import { Pair } from '@thinkincoin-libs/uniswap-v2-sdk'
 import { Pool } from '@thinkincoin-libs/uniswap-v3-sdk'
 import { MixedRouteSDK } from '../entities/mixedRoute/route'

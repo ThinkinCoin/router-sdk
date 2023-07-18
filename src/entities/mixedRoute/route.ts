@@ -1,6 +1,6 @@
 import invariant from 'tiny-invariant'
 
-import { Currency, Price, Token } from '@thinkincoin-libs/sdk-core'
+import { Currency, Price, Token } from '@thinkincoin/sdk-core'
 import { Pool } from '@thinkincoin-libs/uniswap-v3-sdk'
 import { Pair } from '@thinkincoin-libs/uniswap-v2-sdk'
 

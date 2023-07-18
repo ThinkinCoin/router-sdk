@@ -3,7 +3,7 @@
 import { Route as V2RouteSDK, Pair } from '@thinkincoin-libs/uniswap-v2-sdk'
 import { Route as V3RouteSDK, Pool } from '@thinkincoin-libs/uniswap-v3-sdk'
 import { Protocol } from './protocol'
-import { Currency, Price, Token } from '@thinkincoin-libs/sdk-core'
+import { Currency, Price, Token } from '@thinkincoin/sdk-core'
 import { MixedRouteSDK } from './mixedRoute/route'
 
 export interface IRoute<TInput extends Currency, TOutput extends Currency, TPool extends Pool | Pair> {
